@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(49, 118, 139);
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(253, 253, 253);
+}
+form button {
+    background-color: rgb(25, 78, 69);
+    color: rgb(233, 184, 162);
+    font-weight: bold;
+    padding: 8px;
+    
+}
+
+input::placeholder{
+    color: rgb(233, 184, 162);
+    font-weight: bold;
+}
+button:hover {
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.274);
+}
+
+form input{
+    background-color: rgb(9, 97, 70);
+    padding: 8px;
+}
+
+ul{
+    display: flexbox;
+    text-align: left;
+    justify-content: left;
+}
+
+li{
+    font-size: 30px;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+
+
+
