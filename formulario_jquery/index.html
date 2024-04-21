@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section>
+        <div class="titulo">
+            <h2>Preencha aqui para participar do sorteio!</h2>
+        </div>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:. <span style="color: red;">*</span> </label>
+                    <input type="text" placeholder="Nome Completo" id="nome"name="nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:. <span style="color: red;">*</span></label>
+                    <input type="email" name="email" id="email" placeholder="seu e-mail@...com" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="tel">Cel:. <span style="color: red;">*</span></label>
+                    <input type="text" name="tel" id="tel">
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF:. <span style="color: red;">*</span></label>
+                    <input type="text"  name="cpf" id="cpf">
+                </div>
+                <div class="form-group">
+                    <label for="endereço">Endereço:. <span style="color: red;">*</span></label>
+                    <input type="text" name="ende" id="ende" placeholder="Rua..., Nº.., Bairro...">
+                </div>
+                <div class="form-group">
+                    <label for="cep">Cep:. <span style="color: red;">*</span></label>
+                    <input type="text" name="cep" id="cep" placeholder="XXXXX-XXX">
+                </div>
+                
+                <div class="btn-container">
+                    <button type="submit" id="btn-cadastro">Cadastrar</button>
+                    <button type="reset" id="btn-limpar">Limpar</button>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div>
+                <p>
+                2024 &copy; Todos os direitos reservados </p>
+        </div>
+        </footer>
+        <script src="js/jquery.mask.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/messages_pt_BR.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
