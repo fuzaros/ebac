@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinhos F&W</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="imgs/favicon_io/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand">
+            <h1 class="display-2">F&W Vinhos</h1>
+            <div class="container1">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" type="button"><span class="navbar-toggler-icon"></span></button>
+                <nav id="menu" class="collapse navbar-toggler">
+                    <ul class="nav nav-pills navbar-nav">
+                        
+                        <li class="nav-item"><a class="nav-link active" href="#carousel">Home</a></li>
+                        <li class="nav-item"><a class="nav-link " href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <div id="carousel" class="container2 p-2">
+            <div id="carousel-btn" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="imgs/img1.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="imgs/img2.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="imgs/img3.jpg">
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-btn" data-bs-slide="prev" class="carousel-control-prev" type="button"><span class="carousel-control-prev-icon"></span></button>
+    
+                <button data-bs-target="#carousel-btn" data-bs-slide="next" class="carousel-control-next" type="button"><span class="carousel-control-next-icon"></span></button>
+            
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel-btn" data-bs-slide-to="0" ></button>
+                    <button type="button" data-bs-target="#carousel-btn" data-bs-slide-to="1" ></button>
+                    <button type="button" data-bs-target="#carousel-btn" data-bs-slide-to="2" ></button>
+                </div>
+            </div>
+        </div>
+        <div id="sobre">
+            <img src="https://images.pexels.com/photos/5272996/pexels-photo-5272996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="vinícola">
+            <p>No coração de Florença, onde a terra se encontra com o sol e as uvas amadurecem sob o olhar atento de experientes viticultores, nasce a Florença. Mais do que um simples produtor de vinhos, somos guardiões de uma tradição secular, apaixonados por revelar a alma única de cada safra em cada garrafa.<br><br>
+    
+                Nossa história se entrelaça com a rica herança da região, onde o cultivo da videira se perpetua por gerações. Acreditamos que a excelência nasce da sinergia entre o terroir excepcional, técnicas ancestrais aprimoradas pelo conhecimento científico e a dedicação artesanal de nossos enólogos.<br><br>
+                
+                Em nossas vinhas, cada videira recebe cuidados meticulosos, desde a poda precisa até a colheita manual no momento ideal de maturação. Respeitamos o ciclo natural, preservando a biodiversidade e o equilíbrio do ecossistema.<br><br>
+                
+                Na adega, a magia da fermentação se desenrola sob a maestria de nossos enólogos. Cada variedade de uva recebe tratamento individualizado, revelando suas características únicas em cada etapa do processo. Barris de carvalho francês cuidadosamente selecionados conferem elegância e complexidade aos nossos vinhos, enquanto o tempo os transforma em obras de arte a serem apreciadas com reverência.</p>
+        </div>
+    <div id="produtos" class="container">
+        <h2 class="pro display-5">Produtos</h2>
+        <div class="row">
+            <div class="col-md-6 col-xl-4 col-sm-12 p-2">
+                <article class="card">
+                    <header class="card-header">
+                        <h5>Herdade Do Rocim</h5>
+                    </header>
+                    <img src="imgs/vinho 1.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Grande Reserva DOC 2015
+                        </h4>
+                        <p class="card-text">Vinícola situada entre a Vidigueira e Cuba, no Baixo Alentejo, a Herdade do Rocim possui uma propriedade com 120 hectares.</p>
+                        <a href="#" class="btn btn-success">Adc ao carrinho</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-xl-4 col-sm-12 p-2">
+                <article class="card">
+                    <header class="card-header">
+                        <h5>Castello Di Volpaia</h5>
+                    </header>
+                    <img src="imgs/vinho 2.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Grande Reserva DOC 2015
+                        </h4>
+                        <p class="card-text">O Castello de Volpaia era originalmente uma aldeia fortificada construída no século XI como parte da estrutura de defesa dos florentinos.</p>
+                        <a href="#" class="btn btn-success">Adc ao carrinho</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-xl-4 col-sm-12 p-2">
+                <article class="card">
+                    <header class="card-header">
+                        <h5>Delgado Zuleta</h5>
+                    </header>
+                    <img src="imgs/vinho 3.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Monteagudo Palo Cortado
+                        </h4>
+                        <p class="card-text">O Palo Cortado Monteagudo é produzido pela vinícola Delgado Zuleta, em Sanlúcar de Barrrameda na província de Cádiz, Espanha. </p>
+                        <a href="#" class="btn btn-success">Adc ao carrinho</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-xl-4 col-sm-12 p-2">
+                <article class="card">
+                    <header class="card-header">
+                        <h5>Mouchão</h5>
+                    </header>
+                    <img src="imgs/vinho 4.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Tinto 2015
+                        </h4>
+                        <p class="card-text">Este emblemático vinho do Mouchão é fermentado em lagares de pedra e passa por um estágio de 24 meses nas barricas de carvalho português macacaúba e mogno.</p>
+                        <a href="#" class="btn btn-success">Adc ao carrinho</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-xl-4 col-sm-12 p-2">
+                <article class="card">
+                    <header class="card-header">
+                        <h5>Herdade Do Rocim</h5>
+                    </header>
+                    <img src="imgs/Vinho 5.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Terracotta Clay Aged Tinto 2017
+                        </h4>
+                        <p class="card-text">Vinícola situada entre a Vidigueira e Cuba, no Baixo Alentejo, a Herdade do Rocim possui uma propriedade com 120 hectares de nuito plantio e colhetas abundantes da safra.</p>
+                        <a href="#" class="btn btn-success">Adc ao carrinho</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-xl-4 col-sm-12 p-2">
+                <article class="card">
+                    <header class="card-header">
+                        <h5>Herdade Do Peso</h5>
+                    </header>
+                    <img src="imgs/vinho 6.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Reserva Alentejo 2014
+                        </h4>
+                        <p class="card-text">Herdade do Peso é a marca que revitaliza a essência do Alentejo mais profundo, trazida à superfície pela ciência, saber e paixão de uma dedicada equipa de enologia da Sogrape.</p>
+                        <a href="#" class="btn btn-success">Adc ao carrinho</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div id="contato" class="centralizar-form">
+            <form class="form-1 " >
+                <h2 class="display-5 col-12">Contato</h2>
+                <label class="form-label" for="nome">Nome:</label>
+                <input class="form-control" type="text" name="nome" id="">
+                <label class="form-label" for="Email">E-mail:</label>
+                <input class="form-control" type="email" name="email" id="">
+                <label class="form-label" for="tel">Tel:</label>
+                <input  class="form-control" type="tel" name="tel" id="">
+                <label class="form-label" for="mensagem">Sua Mensagem:</label>
+                <textarea class="form-control" id="mensagem" cols="60" rows="4"></textarea>
+                <div class="form-check form-switch">
+                    <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site.</label>
+                    <input class="form-check-input" type="checkbox" id="aceito-termos">
+                </div>
+                <button class="btn btn-success" >Enviar</button>
+            </form>
+        </div>
+        <button id="btn-do-modal" data-bs-target="#modal-inicial" class="btn btn-success" data-bs-toggle="modal"  type="button">Abrir</button>
+        <div class="modal fade" id="modal-inicial" tabindex="-1" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog modal-dialog-scrollable" role="document" >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-aling center">Bem vindo à Vinhos F&W</h5>
+                    </div>
+                    <div class="modal-body">
+                        <p>Você tem mais de 18 anos?</p><br>
+                    </div>
+                    <div class="modal-footer">
+                        <p>(Obrigatório)</p>
+                        <a href="menorque18.html"><button  data-bs-dismiss="modal" class="btn btn-danger" type="button">Não</button></a>
+                        <button  data-bs-dismiss="modal" class="btn btn-success" type="button">sim</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div>
+            <footer class="rodape">
+                <p>&copy;Todos os direitos reservados - F&W 2024</p>
+            </footer>
+        </div>
+    </div>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            const iniciaModal = new bootstrap.Modal('#modal-inicial');
+            iniciaModal.show();
+        })
+    </script>
+</body>
+</html>

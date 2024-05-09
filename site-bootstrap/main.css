@@ -1,0 +1,107 @@
+#body-pg2{
+    background-color: brown;
+    color: white;
+}
+#btn-do-modal{
+    display: none;
+}
+
+.h1-pg2 , .p-pg2{
+    font-weight: bolder;
+    font-size: 4em;
+    display: flex;
+    text-align: center;
+
+}
+.div-pg2{
+    display: flex;
+    justify-content: center;
+}
+.a-pg2{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(189, 180, 181);
+    text-decoration: none;
+    padding-bottom: 50%;
+}
+body{
+    background-color: rgb(90, 25, 50);
+}
+
+
+.container1{
+    background-color: rgb(223, 189, 149);
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.navbar{
+    justify-content: space-between;
+}
+h1{
+    margin-left: 40px;
+}
+.nav-link{
+    color: #fff;
+}   
+section {
+    height: 100vw;
+    padding-top: 72px;
+}
+
+#menu {
+    display: inline-flex;
+    color: #fff;
+}
+#cabecalho {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: rgb(110, 39, 66);
+    color: rgb(255, 255, 255);
+}
+.container2{
+    z-index: -1;
+}
+.pro{
+    color: #fff;
+}
+#sobre{
+    text-indent: 2rem;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    margin-top: 40px;
+}
+#sobre > p{
+    margin-left: 20px;
+    width: 500px;
+    text-align: justify;
+}
+#sobre > img{
+    max-width: 550px;
+    max-height: 330px;
+}
+
+.centralizar-form{
+    display: flex;
+    justify-content: start;
+}
+.form-1{
+    margin-top: 20px;
+    max-width: 480px;
+    margin-left: 16px;
+    color: white;
+    
+}
+h2{
+    font-size: 3rem;
+    }
+.form-1 > button{
+    margin-top: 10px;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
